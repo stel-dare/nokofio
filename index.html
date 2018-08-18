@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nokofio - A recipe application</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+</head>
+<body>
+  <header id="header">
+  <nav id="nav-bar">
+    <div class="icons">
+    <a href="#welcome" class="logo"><img id="header-img" src="https://image.ibb.co/kuVDjd/noknok.png" alt="nokofio-logo"></a>
+    <i class="fa fa-bars" onclick="showLinks()"></i>
+    </div>
+    <a href="#overview" class="nav-link" onclick="showLinks()">overview</a>
+    <a href="#features" class="nav-link" onclick="showLinks()">features</a>
+    <a href="#preview" class="nav-link" onclick="showLinks()">preview</a>
+    <a href="#contact" class="nav-link" onclick="showLinks()">get nokofio</a>
+  </nav>
+</header>
+<main>
+  <section id="welcome">
+    <img src="https://image.ibb.co/kzGMCy/splaskin.png" alt="nokofio-splash-screen" class="splash">
+  </section>
+
+  <section id="overview">
+      <img src="https://image.ibb.co/isnHkJ/overskin.png" alt="nokofio-overview-screen" class="overview-img">
+
+    <section class="overview-text">
+      <blockquote>Sometimes you just need
+        to solve the simplest problems
+        to make a big difference
+        <br>
+        <cite>--Anonymous</cite>
+      </blockquote>
+
+      <p class="nok-overview">
+        Cooking has become a lot more fun with <strong>nokofio</strong>.
+        Get access to a lot of recipes with the same ingredients.
+        With <strong>nokofio</strong> you'll never get bored with your food.
+      </p>
+
+    </section>
+  </section>
+
+  <section id="features">
+    <section class="feature1">
+      <img src="https://image.ibb.co/bNn1FT/recipe_1.png" alt="recipe-book">
+      <h2>Get Recipes</h2>
+      <p>
+        Get <strong>different</strong> and more <strong> creative</strong> recipes for the <strong>same</strong> ingredients.
+        Cooking becomes more fun and creative.
+      </p>
+    </section>
+
+
+    <section class="featureImage">
+      <img src="https://image.ibb.co/bWuYsy/featskin.png" alt="nokofio-home-screen">
+    </section>
+    <section class="feature2">
+            <img src="https://image.ibb.co/f3Fz28/groceries_1.png" alt="recipe-book">
+      <h2>Order ingredients</h2>
+      <p>When ingredients are not enough to try more creative recipes,
+      Order ingredients at the comfort of your home and try them.</p>
+    </section>
+  </section>
+
+
+  <section id="preview">
+
+    <iframe src="https://www.youtube.com/embed/hZU9eIle7v4?vq=hd720" frameborder="0" allowfullscreen id="video"></iframe>
+
+  </section>
+
+
+  <section id="contact">
+          <p>Nokofio is still being worked on.</p>
+      <p>Would you like to be  notified when nokofio is ready?</p>
+    <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+
+    <form id="form"  action="https://script.google.com/macros/s/AKfycby4b8HRU4T5Dx8MrJncIfbtgNtUhJxNA2LsHhiEGQALXnEagbhD/exec" method="post" target="dummyframe">
+      <input type="email" placeholder="Your email address" id="email" name="email" value="">
+      <input id="btnsubmit" type="reset" value="Notify Me" class="button" onclick="message()">
+    </form>
+    <p id="mes" class="displayMessage">Thank you for your support</p>
+  </section>
+
+</main>
+<footer>
+  <div>
+    <p>&copy; 2018 Stel Dare  <a href="https://www.facebook.com/stella.dare.75" target="_blank"><i class="fa fa-facebook-official social"></i></a><a href="https://twitter.com/stelladare2" target="_blank"><i class="fa fa-twitter social"></i></a></p>
+  </div>
+        <div class="iconRef">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

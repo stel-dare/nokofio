@@ -1,0 +1,328 @@
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+
+#nav-bar{
+  background: #ffffff;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  top:0;
+  left:0;
+  right:0;
+}
+
+#header-img{
+  width:100px;
+  height:auto;
+}
+
+.fa{
+  display:none;
+  color:#094B1D;
+  font-size:30px;
+
+}
+
+.nav-link{
+  text-decoration:none;
+  color:#094B1D;
+  font-weight:bold;
+}
+
+
+#welcome{
+  background:rgba(245, 235, 40,0.9 );
+  margin-top:100px;
+ }
+#overview{
+  background:rgba(8, 75, 62,0.8);
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+#features{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+ }
+#preview{
+  background:rgba(8, 75, 62,0.8);
+  padding-top:7%;
+  padding-bottom:7%;
+ }
+#contact{
+  padding:8%;
+ }
+
+.splash{
+  display:block;
+  margin:auto;
+  padding-top:7%;
+  padding-bottom:7%;
+  max-width:70%;
+  height:auto;
+}
+
+.overview-img{
+  max-width:80%;
+  height:auto;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.overview-text{
+  width:40%;
+  align-self:flex-start;
+  margin-top:100px;
+  margin-right:200px;
+  color:white;
+}
+
+blockquote{
+  font-size:150%;
+  font-family: 'Gaegu', cursive;
+  border-left:10px solid #ccc;
+  margin:1.5em 10px;
+  padding:.5em 10px;
+  quotes:"\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color:#ccc;
+  content:open-quote;
+  font-size:4em;
+  line-height:.1em;
+  margin-right:.25em;
+  vertical-align:-.4em;
+}
+
+
+
+.nok-overview{
+  padding:7%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:150%;
+}
+
+.featureImage{
+  margin-top:100px;
+}
+.featureImage img{
+  width:100%;
+  height:auto;
+}
+
+.feature1, .feature2{
+  width:30%;
+  margin-top:150px;
+  align-self:baseline;
+}
+
+.feature1 img, .feature2 img{
+  display:block;
+  margin:auto;
+  max-width:90%;
+}
+
+.feature1 h2, .feature2 h2{
+  text-align:center;
+  color:rgb(8, 75, 62);
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-size:150%;
+}
+
+.feature1 p, .feature2 p{
+  padding:4%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:150%;
+  color:#103147;
+}
+
+iframe{
+  display:block;
+  margin:auto;
+  width:760px;
+  height:515px;
+}
+
+#contact p{
+  text-align:center;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#103147;
+  font-size:150%;
+}
+
+form{
+  margin-left:25%;
+  margin-top:5%;
+}
+
+input{
+  width:50%;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+.button{
+  width:15%;
+  padding-top:1%;
+  padding-bottom:1%;
+  background:rgb(8, 75, 62);
+  color:white;
+}
+
+.social{
+  display:inline-block;
+  color:white;
+  padding-left:2%;
+}
+.iconRef{
+  text-align:center;
+  font-family: 'Caveat', cursive;
+  color:white;
+}
+
+footer a{
+  text-decoration:none;
+}
+
+footer p{
+  color:white;
+  text-align:center;
+  font-family: 'Handlee', cursive;
+  font-size:130%;
+}
+
+footer{
+  background:#094B1D;
+  padding:2%;
+}
+
+#dummyframe{
+  display:none;
+}
+
+.displayMessage{
+  display:none;
+}
+
+
+@media(max-width:900px){
+  #nav-bar{
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  }
+
+  .nav-link{
+    display:none;
+    padding-bottom:10px;
+
+  }
+
+   .icons{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  .fa{
+    display:inline-block;
+    padding-right:15px;
+    cursor:pointer;
+  }
+
+
+  .hide{
+  display:none;
+}
+
+.show{
+  display:inline-block;
+}
+
+  .splash{
+    max-width:85%;
+    padding-top:10%;
+    padding-bottom:10%;
+  }
+
+  #overview{
+  flex-direction:column-reverse;
+  justify-content:center;
+  align-items:center;
+}
+
+  .overview-text{
+    width:90%;
+  margin-top:50px;
+  margin-right:0px;
+  }
+
+  #features{
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  }
+
+  .feature1, .feature2{
+  width:90%;
+  align-self:center;
+}
+
+  .feature1{
+  margin-top:100px;
+  margin-bottom:0px;
+  }
+
+  .feature2{
+  margin-top:0px;
+  margin-bottom:80px;
+  }
+
+.featureImage{
+margin-top:0px;
+margin-bottom:0px;
+}
+ .featureImage img{
+padding-top:40%;
+  }
+
+  iframe{
+  display:block;
+  margin:auto;
+  width:260px;
+  height:215px;
+}
+
+  #preview{
+  padding-top:10%;
+  padding-bottom:10%;
+ }
+
+  form{
+  margin-left:2%;
+  margin-top:5%;
+}
+
+  input{
+  display:block;
+  width:85%;
+  padding-top:4%;
+  padding-bottom:4%;
+}
+
+  .button{
+  margin-top:2%;
+  width:50%;
+  padding-top:4%;
+  padding-bottom:4%;
+}
+
+}
